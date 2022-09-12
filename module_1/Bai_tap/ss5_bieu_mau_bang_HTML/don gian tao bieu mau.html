@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <style>
+        .div1 { background-color: white; width: 400px; border: 10px solid black; padding-top: 10px }
+        .tittle { color: blue}
+        .checkbox {color: orange}
+        .div2 { background-color: white; width: 400px; border: 10px solid black; padding-top: 10px }
+    </style>
+</head>
+<body>
+<div class="div1">
+   <form action="#" method="get" style="margin-left: 20px">
+       <h2 style="background-color: coral; color: white ;margin-left: 90px">Sở thích của bạn</h2>
+       <span class="tittle" style="margin-left: 10px">Họ và tên </span> <input type="text" name="name"><br>
+       <span class="tittle"style="margin-left: 36px">email </span> <input type="text" name="email"><br>
+       <span class="tittle"style="margin-left: 18px">Sở thích </span> <input type="checkbox" name="hobby" value="Thể thao">
+       <span class="checkbox">Thể thao</span>
+       <input type="checkbox" name="hobby" value="Âm nhạc"> <span class="checkbox">Âm nhạc </span>
+       <input type="checkbox" name="hobby" value="Đọc sách"> <span class="checkbox">Đọc sách </span> <br>
+       <input type="checkbox" name="hobby" value="Lướt web"style="margin-left: 79px"> <span class="checkbox"> lướt web</span>
+       <input type="checkbox" name="hobby" value="Chơi game"> <span class="checkbox">Chơi game </span>
+       <input type="checkbox" name="hobby" value="Điện ảnh"> <span class="checkbox">Điện ảnh </span> <br>
+       <input type="checkbox" name="hobby" value="Du lịch"style="margin-left: 79px"> <span class="checkbox"> Du lịch</span>
+       <br>
+       <button type="submit"style="margin-left: 75px"> Gửi thông tin</button>
+       <button type="submit"> Nhập thông tin</button>
+   </form>
+</div>
+<br>
+<div class="div2">
+    <form>
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <span class="tittle">Họ và tên </span> <input type="text" name="name"><br>
+        <span class="tittle">Ngày sinh </span> <input type="text" name="birthday"><br>
+        <span class="tittle">Giới tính </span> <input type="radio" name="gender">Nam
+        <input type="radio" name="gender">Nữ<br>
+        <span class="tittle">Địa chỉ </span> <input type="text" name="address"><br>
+        <span class="tittle">Lớp </span> <select name="class">
+        <option value="0">-Chọn Lớp-</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+    </select><br>
+        <span class="tittle">Email </span> <input type="text" name="Email"><br>
+        <span class="tittle">Điện thoại</span> <input type="text" name="phone number"><br>
+        <button type="submit" name="submit">Đăng ký </button>
+        <button type="reset" name="reset">Nhập lại</button>
+    </form>
+</div>
+</body>
+</html>
