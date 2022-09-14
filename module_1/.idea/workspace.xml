@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594b5681-95ad-418a-b180-06f25def6995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai_tap/ss5_bieu_mau_bang_HTML/tao bang don gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap/ss5_bieu_mau_bang_HTML/tao bang nang cao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai_tap/ss5_bieu_mau_bang_HTML/tao bieu mau dang ky nguoi dung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do/Tài liệu Văn bản Mới.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="594b5681-95ad-418a-b180-06f25def6995" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +34,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2ERReRFGa4OOnmcM9gkgiMkOk8c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,6 +72,9 @@
       <workItem from="1662728669675" duration="5482000" />
       <workItem from="1662970424708" duration="6599000" />
       <workItem from="1662980666486" duration="10508000" />
+      <workItem from="1662992284575" duration="29000" />
+      <workItem from="1663150283027" duration="47000" />
+      <workItem from="1663152596009" duration="7072000" />
     </task>
     <servers />
   </component>
