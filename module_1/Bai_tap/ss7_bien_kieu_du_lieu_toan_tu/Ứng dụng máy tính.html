@@ -6,7 +6,52 @@
 
 </head>
 <body>
+<form>
 <h1>Caculator</h1>
-
+<input type="text" id="input1">
+<input type="text" id="input2"><br>
+<p>
+    <button type="button" onclick="addition()">Addition(+)</button>
+    <button type="button" onclick="subtraction()">Subtraction(-)</button>
+    <button type="button" onclick="Multiplication()">Multiplication(*)</button>
+    <button type="button" onclick="Division()">Division(/)</button>
+</p>
+</form>
+<p id="result" style="color: blue"></p>
+<br>
+<script>
+    function addition() {
+        let number1 = document.getElementById('input1').value;
+        let number2 = document.getElementById('input2').value;
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        Addition1=(number1 + number2);
+        document.getElementById("result").innerHTML = "result addition: " + Addition1;
+    }
+    function subtraction() {
+        let number1 = document.getElementById('input1').value;
+        let number2 = document.getElementById('input2').value;
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        Subtraction1=(number1 - number2);
+        document.getElementById("result").innerHTML = "result subtraction: " + Subtraction1;
+    }
+    function Multiplication() {
+        let number1 = document.getElementById('input1').value;
+        let number2 = document.getElementById('input2').value;
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        Multiplication1=(number1 * number2);
+        document.getElementById("result").innerHTML = "result multipcation: " + Multiplication1;
+    }
+    function Division() {
+        let number1 = document.getElementById('input1').value;
+        let number2 = document.getElementById('input2').value;
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        Division1 = (number1 / number2);
+        document.getElementById("result").innerHTML = "result addition: " + Division1
+    }
+</script>
 </body>
 </html>
