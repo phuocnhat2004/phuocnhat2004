@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>máy tính đơn giản</title>
 </head>
 <body>
 <table>
@@ -34,9 +34,6 @@
         <td><input type="button" onclick="bang()" value="="></td>
         <td><input type="button" onclick="nhap(this.value)" value="/"></td>
     </tr>
-    <tr>
-        <td><input type="button" onclick="xoaKyTu()" value="x"></td>
-    </tr>
 </table>
 <script>
     function nhap(so) {
@@ -48,12 +45,6 @@
     }
     function xoa() {
         document.getElementById("window").value="";
-    }
-    function xoaKyTu() {
-        let string = document.getElementById("window").value;
-        let array = string.split("");
-        array[array.length-1]="";
-        document.getElementById("window").value=array.join("");
     }
 </script>
 </body>
