@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    var a = +prompt("nhập diểm kiểm tra");
+    var b = +prompt("nhập điểm thi giữa kỳ");
+    var c = +prompt("nhập điểm thi cuối kỳ");
+    let tk=[(a+b*2+c*3)/6]
+    if (a>=8 && b>=8 && c>=8 && tk>=8) {
+        alert("Học sinh giỏi");
+    }else if (tk>=6.5) {
+        alert("Học sinh khá");
+    }else if (tk>=5) {
+        alert("Học sinh trung bình");
+    }else {
+        alert("Học sinh yếu");
+    }
+</script>
+
+</body>
+</html>
