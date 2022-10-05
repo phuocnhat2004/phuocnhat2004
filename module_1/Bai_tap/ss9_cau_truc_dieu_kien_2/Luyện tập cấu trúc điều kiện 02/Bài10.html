@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 10</title>
+</head>
+<body>
+<p id="giatien"></p>
+<script>
+    let a = parseFloat(prompt("sản lượng điện tiêu thụ của một gia đình trong một tháng"));
+    b1= a * 1.678;
+    b2= a * 1.734;
+    b3= a * 2.014;
+    b4= a * 2.536;
+    if (a < 50) {
+        document.getElementById("giatien").innerText =b1;
+    } else if (a <= 100){
+        document.getElementById("giatien").innerText =b2;
+    } else if (a<=200){
+        document.getElementById("giatien").innerText =b3;
+    } else if (a<=300){
+        document.getElementById("giatien").innerText =b4;
+    }
+</script>
+</body>
+</html>

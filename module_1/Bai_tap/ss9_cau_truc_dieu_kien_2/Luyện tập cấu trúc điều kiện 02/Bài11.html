@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+</head>
+<body>
+<p id="thue"></p>
+<script>
+    let a = parseFloat(prompt("tổng thu nhập của bạn"));
+    b1=a*0.95;
+    b2=a*0.9-250000;
+    b3=a*0.85-750000;
+    b4=a*0.8-1650000;
+    b5=a*0.75-3250000;
+    if (a>0&&a<=5000000) {
+       alert("tổng thu nhập của bạn sau thuế là: " + b1)
+    }else if (a<=10000000) {
+        alert("tổng thu nhập của bạn sau thuế là: " + b2)
+    }else if (a<=18000000) {
+        alert("tổng thu nhập của bạn sau thuế là: " + b3)
+    }else if (a<=32000000) {
+        alert("tổng thu nhập của bạn sau thuế là: " + b4)
+    }else if (a<=52000000) {
+        alert("tổng thu nhập của bạn sau thuế là: " + b5)
+    }
+
+</script>
+</body>
+</html>
